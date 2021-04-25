@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const EventEmitter = require("events");
+//const EventEmitter = require("events");
 const WebSocket = require("isomorphic-ws");
 
 // Create WebSocket connection.
