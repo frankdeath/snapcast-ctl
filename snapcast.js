@@ -12,7 +12,6 @@ socket.addEventListener('open', function(event) {
     // alert is only used in web browsers
     //alert("[open] Connection established");
     console.log("[open] Connection established");
-    //socket.send('Hello Server!');
     
     // Send a query to the server
     socket.send(JSON.stringify({"id":1,"jsonrpc":"2.0","method":"Server.GetStatus"}));
