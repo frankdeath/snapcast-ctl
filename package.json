@@ -1,0 +1,16 @@
+{
+  "name": "snapcast-ctl",
+  "version": "0.1.0",
+  "description": "Snapcast control in javascript",
+  "main": "snapcast-ctl.js",
+  "dependencies": {
+    "isomorphic-ws": "^4.0.1",
+    "ws": "^7.4.5"
+  },
+  "scripts": {
+    "start": "snapcast-ctl.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
