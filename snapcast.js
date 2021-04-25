@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const EventEmitter = require("events");
 const WebSocket = require("isomorphic-ws");
 
